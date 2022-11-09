@@ -1,0 +1,65 @@
+/*ID's*/
+
+#submitButton{
+    margin: 3px;
+    width: auto;
+    height: 100px;
+    background-image: linear-gradient(to bottom right, red, darkred);
+    grid-column: 3 / span 2;
+}
+
+/*Classes*/
+
+.calculatorBody{
+    padding: 25px;
+    width: 40%;
+    height: fit-content;
+    margin-left: 30%;
+    margin-top: 100px;
+    border: 3px solid black;
+    border-radius: 15px;
+    background-image: linear-gradient(to bottom right, lightgray, gray);
+}
+
+.resultPad{
+    padding: 5px;
+    width: auto;
+    height: 35px;
+    margin-bottom: 20px;
+    border: 3px solid black;
+    border-radius: 5px;
+    color: white;
+    background-image: linear-gradient(to bottom right, darkgreen, green);
+    text-align: right;
+}
+
+.buttonPad{
+    padding: 3px;
+    display: grid;
+    grid-column: initial;
+    grid-template-columns: auto auto auto auto;
+    width: auto;
+    height: fit-content;
+    border: 2px solid black;
+    border-radius: 5px;
+    background-image: linear-gradient(to bottom right, gray, darkgray);
+    text-align: center;
+}
+
+.button{
+    font-size: 30px;
+    margin: 3px;
+    width: auto;
+    height: 100px;
+    background-image: linear-gradient(to bottom right, lightgray, silver);
+}
+
+/*Functionality*/
+
+.button:hover{
+    opacity: 70%;
+}
+
+.button:active{
+    opacity: 50%;
+}
